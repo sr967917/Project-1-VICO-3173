@@ -1,0 +1,253 @@
+nav {
+    background-color: #652375;
+    z-index: 1;
+}
+
+.navbar-brand {
+    font-family: 'Cocktail Shaker', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    font-size: 50pt;
+    padding-left: 20px;
+}
+
+button {
+    color: white;
+}
+
+button.position-absolute {
+    right:1rem;
+    top:1rem;
+    z-index:1;
+}
+
+.navbar-one {
+    color: white;
+    font-family: 'El Messiri', sans-serif;
+    font-size: 16pt;
+}
+
+.navbar-one:hover {
+    color: grey !important;
+}
+
+/* photos */
+.carousel-inner {
+    height: 250px;
+    width: 100%;
+}
+
+.cta {
+    background-image: url(/Images/front-1.jpg);
+    color: white;
+    height: 250px;
+}
+
+.cta > h5 {
+    font-family: 'El Messiri', sans-serif;
+    padding: 20px;
+    font-size: 32pt;
+}
+
+.cta > p {
+    font-family: 'Martel', sans-serif;
+    margin: 20px;
+}
+
+/* body */
+
+main {
+    background-image: url(/Images/background%20opacity2.png);
+    background-repeat: repeat;
+    background-size: 70%;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+body {
+    font-family: 'Martel', sans-serif;
+}
+
+/* menu */
+
+.item {
+  padding-left: 30px;
+}
+
+.menu, #menu {
+    color: black;
+}
+
+.header {
+    font-family: 'Cocktail Shaker', sans-serif;
+    font-size: 50pt;
+}
+
+h5 {
+    font-weight: bold;
+}
+
+.header-menu {
+    padding-top: 20px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.nav-link {
+    font-family: 'El Messiri', sans-serif;
+    font-size: 20pt;
+}
+
+.nav-link:hover {
+    color: #652375 !important;
+}
+
+.curry, .curry-descrip {
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+h3 {
+    font-family: 'Martel', sans-serif;
+    /* font-weight: bold; */
+}
+
+@media screen and (min-width: 768px) {
+    .accordion-menu {
+        display: none;
+    }
+  /*  .catering-sm {
+        display: none;
+    }
+    .catering-big {
+        display: block;
+    } */
+}
+
+@media screen and (max-width: 767px) {
+    .accordion-menu {
+        display: block;
+    }
+    .tab-menu {
+        display: none;
+    }
+ /*   .catering-sm {
+        display: block;
+    }
+    .catering-big {
+        display: none;
+    } */
+    .navbar-one {
+        text-align: right;
+    }
+}
+
+/*accordion*/
+
+.appetizers-acc, .appetizers-acc:not(.collapsed) {
+    background-color: #5D2A71;
+    color: white;
+    font-size: 18pt;
+} 
+.alc-acc, .alc-acc:not(.collapsed) {
+    background-color: #E494F7;
+    color: white;
+    font-size: 18pt;
+}
+
+.entree-acc, .entree-acc:not(.collapsed) {
+    background-color: #9A46BC;
+    color: white;
+    font-size: 18pt;
+}
+
+h2.accordion-header {
+    font-family: 'El Messiri';
+}
+
+/* catering */
+
+/* .catering-img {
+    border-radius: 25%;
+    size: 100%;
+    padding-left: 20px;
+} */
+
+.catering-text {
+    padding-right: 20px;
+    text-align: justify;
+    padding-left: 20px;
+}
+
+.overflow-auto {
+    height: 300px;
+    background-color: white;
+    margin-bottom: 30px;
+    width: 80%;
+  /*  border-radius: 10%; */
+}
+
+.catering-list {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.phone-resos {
+    color: black;
+    font-weight: bold;
+}
+
+/* contact */
+
+.contact-text {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.address-contact {
+    color: black;
+    text-align: center;
+}
+
+.address-contact:hover {
+    color: #5D2A71;
+}
+
+/* footer */
+
+footer {
+   background-color: #652375;
+    width: 100%;
+    position: absolute;
+}
+
+footer p, footer a {
+    color: white;
+    cursor: default;
+    padding-top: 20px;
+    text-align: center;
+}
+footer a:hover {
+    color: lightgrey;
+    cursor: pointer;
+}
+
+.social-icon {
+    width: 50px;
+   height: 50px;
+    margin-bottom: 10px;
+}
+
+/* .address, .phone {
+    text-decoration: none;
+}
+
+.address:hover, .phone:hover {
+    text-decoration: underline;
+} */
