@@ -122,12 +122,12 @@ h3 {
     .accordion-menu {
         display: none;
     }
-  /*  .catering-sm {
+    .catering-sm {
         display: none;
     }
     .catering-big {
         display: block;
-    } */
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -137,15 +137,17 @@ h3 {
     .tab-menu {
         display: none;
     }
- /*   .catering-sm {
+    
+    .catering-sm {
         display: block;
     }
     .catering-big {
         display: none;
-    } */
-    .navbar-one {
-        text-align: right;
     }
+    
+    /*.navbar-one {
+        text-align: right;
+    } */
 }
 
 /*accordion*/
@@ -173,11 +175,11 @@ h2.accordion-header {
 
 /* catering */
 
-/* .catering-img {
+.catering-img {
     border-radius: 25%;
     size: 100%;
     padding-left: 20px;
-} */
+}
 
 .catering-text {
     padding-right: 20px;
@@ -198,6 +200,9 @@ h2.accordion-header {
     padding-top: 20px;
 }
 
+.cat-sm-p {
+    padding-left: 10px;
+}
 .phone-resos {
     color: black;
     font-weight: bold;
